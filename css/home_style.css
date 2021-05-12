@@ -1,0 +1,83 @@
+/* navbar */
+.nav.navbar-nav.navbar-right li a {
+    color: white;}
+.navbar-header .navbar-brand {
+    color: white;}
+
+
+/* Style the input container */
+.topnav .login-container {
+  float: right;
+}
+
+/* Style the input field inside the navbar */
+.nav navbar-nav navbar-right {
+  padding: 6px;
+  margin-top: 20px;
+  font-size: 17px;
+  border: none;
+  width: 200px; 
+}
+
+
+
+/* background */
+body {background-color:;}
+/* middle background */
+body, html {
+  height: 70%;}
+* {
+  box-sizing: border-box;
+}
+.bg-image {
+  background-image: url("../asset/uni.jpg");
+  filter: blur(15px);
+  -webkit-filter: blur(0.4px);
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page ,image */
+.bg-text {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4);
+  color: gainsboro;
+  font-weight: 700;
+ 
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+}
+
+
+/*BOX IN THE MIDDLE OF THE PAGE*/
+#a-col {
+border: 2px solid #226fb2;
+border-radius: 20px;
+margin-top: 15px;
+margin-bottom: 15px;
+    width: 360px;
+    height: 310px;
+    
+}
+/*footer*/
+.footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+    height: 20%;
+  background-color: aliceblue;
+  color: white;
+  text-align: center;
+}
+
+
+
